@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,400&display=swap');
+
+.list-page {
+    padding: 0px calc(50% - 300px);
+  }
+  
+  .list-page__title {
+    font-size: 34px;
+    margin: 26px 0;
+    text-align: center;
+    background-image: linear-gradient(red, orange);
+  }
+
+
+  .list-page ul li {
+    padding: 20px;
+    background-color: #ffeedb;
+    display: flex;
+  }
+  .list-page__single-movie {
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  .single-movie__poster {
+    height: 150px;
+    margin-right: 21px;
+  }
+  
+  .list-page__link-imdb {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .link-imdb {
+    margin: 5px 0;
+    display: block;
+  }
+  
+  .list-page__details {
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+  }
+  .list-page__details-title {
+    width: 160px;
+    font-size: 13px;
+  }
+  
+  .movie-item__about {
+    padding: 10px 0;
+  }
+  
+  .list-page__details-value {
+    font-size: 13px;
+    width: 100%;
+  }
+  .movie-item__info-list {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0 0 0;
+  }
+  
+  #movie-item__info-item {
+    padding: 0;
+  }
+  
+  .info {
+    width: 100%;
+  }
+
+  .list-page ul li.list-item {
+    font-size: 40px;
+  }
+  

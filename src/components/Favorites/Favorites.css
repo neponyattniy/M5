@@ -1,0 +1,70 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgb(156, 156, 156);
+    padding: 30px 20px;
+    box-shadow: 10px 5px 5px rgb(196, 196, 196);
+}
+
+.favorites__name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    margin-bottom: 24px;
+  border-radius: 20px;
+
+}
+
+.favorites__list {
+    margin-bottom: 24px;
+}
+
+.favorite_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.removing_button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.favorites__save {
+    border: none;
+    background-color: #496DDB;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    border-radius: 20px;
+}
+
+.favorites {
+    border-radius: 20px;
+}
+
+.favorites__save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+}
+
+.favorites__save:hover:not(:disabled) {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background-color: #FFEEDB;
+    color: rgba(0, 8, 7);
+}
+
+.favorites__save:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
