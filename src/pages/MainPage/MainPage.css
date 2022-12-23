@@ -87,6 +87,7 @@ background-repeat:no-repeat;
   .main-page__favorites_mobile {
     display: block;
     margin-right: 30px;
+    margin-bottom: 20px;
   }
   .main-page__movies_mobile {
     display: block;

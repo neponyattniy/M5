@@ -1,37 +1,23 @@
-import React from 'react';
-import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import React, { Component } from 'react';
+import Carousel from 'react-elastic-carousel';
 
-const slideImages = [
-  {
-    url: 'moviebg.jpg',
-    caption: 'Slide 1'
-  },
-  {
-    url: 'images/slide_3.jpg',
-    caption: 'Slide 2'
-  },
-  {
-    url: 'images/slide_4.jpg',
-    caption: 'Slide 3'
-  },
-];
+export default class MayLike extends Component {
+  state = {
+    items: [
+      {id: 1, title: 'item #1'},
+      {id: 2, title: 'item #2'},
+      {id: 3, title: 'item #3'},
+      {id: 4, title: 'item #4'},
+      {id: 5, title: 'item #5'}
+    ]
+  }
 
-const MayLike = () => {
+  render () {
+    const { items } = this.state;
     return (
-      <div className="slide-container">
-        <Slide>
-         {slideImages.map((slideImage, index)=> (
-            <div className="each-slide" key={index}>
-              <div style={{'backgroundImage': `url(${slideImage.url})`}}>
-                <span>{slideImage.caption}</span>
-              </div>
-            </div>
-          ))} 
-        </Slide>
-      </div>
+      <Carousel>
+        {items.map(item => <div key={item.id}>{item.title}</div>)}
+      </Carousel>
     )
+  }
 }
-
-export default MayLike;
-

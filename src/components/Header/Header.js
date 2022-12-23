@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
+import { BrowserRouter, Link } from 'react-router-dom';
+
 
 class Header extends Component {
     render() { 
@@ -8,6 +10,9 @@ class Header extends Component {
                 <h1 className="header__title">
                     BAXMALISAN
                 </h1>
+                <Link to = "/maylike">
+                Вам может понравить
+                </Link><a  id='link2'>Наши контакты</a>
             </header>
         );
     }

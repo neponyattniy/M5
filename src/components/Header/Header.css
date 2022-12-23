@@ -3,6 +3,19 @@
 
     padding: 20px calc(50% - 500px) 10px;
     color: white;
+    text-align: center;
+}
+
+#link1, #link2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    color:darkblue;
+}
+
+#link2 {
+    margin-left: 30%
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,400&display=swap');
@@ -12,4 +25,5 @@
     color: white;
     font-size: 45px;
     margin-left: 40px;
+
 }
