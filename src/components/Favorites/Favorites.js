@@ -23,7 +23,7 @@ class Favorites extends Component {
     render() { 
         return (
             <div className="favorites">
-                <input value={this.props.favoritesTitle} 
+                <input placeholder = 'Ведите название вашего списка!'value={this.props.favoritesTitle} 
                 className="favorites__name" 
                 disabled={this.props.idList}
                  onChange={this.changeTitleHandler} />

@@ -9,7 +9,8 @@ class MainPage extends Component {
     render() { 
         return (
             <div className="main-page">
-                <Header /><MayLike/>
+                <Header />
+                
                 <main className="main-page__content">
                     <section className="main-page__main-section">
                     <div className="main-page__search-box_mobile">

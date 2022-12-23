@@ -1,5 +1,6 @@
 .header {
-    background-image: linear-gradient(black, grey);
+ background-image:   linear-gradient(#3ae9da, #86f363);
+
     padding: 20px calc(50% - 500px) 10px;
     color: white;
 }

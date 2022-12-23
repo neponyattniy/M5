@@ -7,12 +7,16 @@
     font-size: 12px;
     background-color: white;
     margin-right: 10px;
+    background-color: #2a9d8f;
+    font-size: 20px;
+    color: white;
+
 }
 
 .search-box__form-input {
     box-sizing: border-box;
     display: block;
-    margin-top: 5px;
+    margin-top: 5px;  
     width: 300px;
     font-size: 14px;
     padding: 5px 10px;
