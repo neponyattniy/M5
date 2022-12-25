@@ -11,10 +11,12 @@ class Header extends Component {
                     BAXMALISAN
                 </h1>
                 <Link to = "/maylike">
-                Вам может понравиться
-                </Link><a  id='link2'>
-                Наши контакты
-                </a>
+                MARVEL
+                </Link>
+                <br></br>
+                <Link to = "/about">
+                About
+                </Link>
             </header>
         );
     }
