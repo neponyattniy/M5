@@ -7,7 +7,7 @@
     font-size: 12px;
     background-color: white;
     margin-right: 10px;
-    background-color: #2a9d8f;
+    background-color: black;
     font-size: 20px;
     color: white;
 
@@ -32,9 +32,9 @@
     border: none;
     transition: all 0.2s linear;
     color: #FFEEDB;
-    background-color: rgba(0, 8, 7);
+    background-color: red;
   border-radius: 20px;
-  box-shadow: 2px 2px 2px grey;
+  box-shadow: 1px 1px 10px rgb(137, 123, 123);
 
 }
 
@@ -42,7 +42,7 @@
     opacity: 0.8;
     cursor: pointer;
     transition: all 0.2s linear;
-    background-color: #504436;
+    background-color: #000000;
     color: rgb(255, 255, 255);
 }
 

@@ -1,9 +1,11 @@
 .movie-item {
     padding: 20px;
-    background-image:   linear-gradient(#3ae9da, #86f363);
+    background-image:   linear-gradient(black, red);
     display: flex;
   border-radius: 20px;
-  box-shadow: 6px 6px 40px grey;
+  box-shadow: 2px 2px 14px rgb(85, 76, 76);
+
+  border: 1px solid red;
 
 }
 
@@ -29,12 +31,13 @@
 
 .movie-item__add-button {
     border: none;
-    background-color: #496DDB;
+    background-color: red;
     padding: 10px 15px;
-    color: #FFEEDB;
+    color: #ffffff;
     font-size: 14px;
     transition: all 0.2s linear;
   border-radius: 20px;
+  border: 1px solid black;
 
 }
 

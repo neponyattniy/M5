@@ -9,9 +9,9 @@ export default class MayLike extends Component {
       <div className='carousel'>
         <header>
           <h1 className='headersss'><span className='marvel'>MARVEL</span></h1>
-          <h2 className='link123'><Link to = "/">
-                  Возврат на главную страницу
-                </Link></h2>
+          <Link className='link3' to = "/">
+                  BACK TO MAIN PAGE
+                </Link>
         </header>
       </div>
 

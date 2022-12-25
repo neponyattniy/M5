@@ -18,10 +18,18 @@ html {
     background-color: #000000;
 }
 
+.link3 {
+    font-size: 15px;
+    margin-left: 45%;
+    color: white;
+    margin-top: -60px;
+}
+
 .marvel {
     padding-top: 20px;
     background-color: red;
-    width: 140px;
+    width: 160px;
+    font-size: 40px;
     display: flex;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;

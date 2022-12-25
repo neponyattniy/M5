@@ -14,11 +14,17 @@
 .header__title {
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
     background-color: red;
-    width: 140px;
+    width: 160px;
     display: flex;
     justify-content: center;
+}
+
+.link1, .link2 {
     margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
 }

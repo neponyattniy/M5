@@ -1,14 +1,14 @@
 .favorites {
     box-sizing: border-box;
-    border: 1px solid rgb(156, 156, 156);
+    border: 1px solid rgb(255, 0, 0);
     padding: 30px 20px;
-    box-shadow: 4px 4px 30px grey;
-    background-image:   linear-gradient(#3ae9da, #86f363);
+    box-shadow: 2px 2px 14px rgb(85, 76, 76);
+    background-image:   linear-gradient(red, black);
 }
 
 html {
-    background-color: #2a9d8f;
-
+   background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/03/Wallpaper-Marvel-Spiderman-Wallpaper-Spider-Man-Marvel-C19.jpg);
+    
 }
 
 .favorites__name {
@@ -31,6 +31,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 5px;
+    color: white;
 }
 
 .removing_button {
@@ -44,10 +45,11 @@ html {
 
 .favorites__save {
     border: none;
-    background-color: #496DDB;
+    background-color: red;
     padding: 10px 15px;
-    color: #FFEEDB;
+    color: #ffffff;
     font-size: 14px;
+    border: 1px solid black;
     transition: all 0.2s linear;
     border-radius: 20px;
 }
