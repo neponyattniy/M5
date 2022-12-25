@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import { BrowserRouter, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 
 class Header extends Component {
@@ -8,15 +8,15 @@ class Header extends Component {
         return (
             <header className="header">
                 <h1 className="header__title">
-                    BAXMALISAN
+                    MARVEL
                 </h1>
-                <Link to = "/maylike">
+                {/* <Link to = "/maylike">
                 MARVEL
                 </Link>
                 <br></br>
                 <Link to = "/about">
                 About
-                </Link>
+                </Link> */}
             </header>
         );
     }
