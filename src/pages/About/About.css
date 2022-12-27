@@ -82,9 +82,16 @@
     transition: 0.7s;
 }
 
-.back {
-    
-}
+.footercom {
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1400px;
+    position: absolute;
+    }
 
 .card1mobile, .card2mobile, .card3mobile {
     position: absolute;
@@ -92,7 +99,23 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 991px) {
+.mobilecom {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin-top: -40px;
+}
 
+.footercom {
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1800px;
+    position: absolute;
+    }
 
     .card2mobile {
         background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/c/b0/639a7ab7b9ce3/portrait_uncanny.jpg);
@@ -100,7 +123,8 @@ background-repeat: no-repeat;
 background-size: contain;
         width: 150px;
         height: 200px;
-        margin-left: 400px;
+        margin-top: 220px;
+
     }
     .card3mobile {
         background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/4/90/639a7a8c94966/portrait_uncanny.jpg);
@@ -108,10 +132,17 @@ background-size: contain;
         background-size: contain;
         width: 150px;
         height: 200px;
-        margin-left: 200px;
+        margin-top: 440px;
     }
 
-
+    .card1mobile {
+        background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/2/40/639a7abec7bad/portrait_uncanny.jpg);
+        width: 150px;
+        height: 200px;
+        background-repeat: no-repeat;
+    background-size: contain;
+    }
+    
     .card1 {
 display: none;
     }
@@ -146,8 +177,8 @@ display: none;
     
     .card1mobile,.card2mobile,.card3mobile {
         transition: 0.7s;
-        border-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
     }
 
     .headersss {
@@ -159,26 +190,19 @@ display: none;
         position: absolute;
         margin-top: -18px;
     }
+
     .cards {
         margin-top: 500px;
         justify-content: space-between;
         flex-direction: column;
-        margin-right: 30vw;
     }
     .card1mobile, .card2mobile, .card3mobile {
         display: block;
     }
 
-    .card1mobile {
-        background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/2/40/639a7abec7bad/portrait_uncanny.jpg);
-        width: 150px;
-        height: 200px;
-        background-repeat: no-repeat;
-background-size: contain;
-    }
 
     .desc1mobile {
-        justify-content: center;
+        position: absolute;
         font-size: 10px;
         height: 20px;
         width: 135px;
@@ -186,6 +210,7 @@ background-size: contain;
         height: 20px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        margin-bottom: 30px;
     }
 }
 

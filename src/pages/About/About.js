@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, Route } from 'react-router-dom';
 import './MayLike.css'
 import './About.css'
-
+import Footer from '../Spider/Footer';
 
 
 
@@ -41,7 +41,11 @@ export default class About extends Component {
               </a>
             </p>
           </div>
-          <div className='card1mobile'>
+          
+
+        </div>
+        <div className='mobilecom'>
+            <div className='card1mobile'>
             <p className='desc1mobile'>
               <a className='linkcom' href='https://www.marvel.com/comics/issue/104879/avengers_forever_2021_12'>
               Avengers Forever (2021) #12
@@ -64,17 +68,10 @@ export default class About extends Component {
               </a>
             </p>
           </div>
-          {/* <div className='card4'>
-            <p className='desc1'>
-              <a className='linkcom' href='https://www.marvel.com/comics/issue/96893/wolverine_2020_28'>
-              Wolverine (2020) #28
-
-              </a>
-            </p>
-          </div> */}
-          
-
-        </div>
+            </div>
+            <footer className='footercom'>
+              <Footer/>
+            </footer>
 
       </div>
 
