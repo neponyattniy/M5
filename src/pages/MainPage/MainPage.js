@@ -4,7 +4,7 @@ import Header from '../../components/Header/Header';
 import SearchBox from '../../components/SearchBox/SearchBox';
 import Movies from '../../components/Movies/Movies';
 import Favorites from '../../components/Favorites/Favorites';
-import MayLike from '../MayLike/MayLike';
+import MayLike from '../About/About';
 class MainPage extends Component {
     render() { 
         return (

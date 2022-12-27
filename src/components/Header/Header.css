@@ -8,11 +8,17 @@
     display: flex;
     justify-content: center;
     height: 80px;
+    font-family: 'Marvel';
+    font-size: 20px;
+
 }
 
+.marvel {
+    font-family: 'Marvel';
+
+}
 
 .header__title {
-    font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 40px;
     font-weight: 900;
@@ -20,6 +26,8 @@
     width: 160px;
     display: flex;
     justify-content: center;
+    font-family: 'Marvel';
+
 }
 
 .link1, .link2 {

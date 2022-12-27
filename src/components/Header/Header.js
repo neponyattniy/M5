@@ -7,13 +7,13 @@ class Header extends Component {
     render() { 
         return (
             <header className="header">
-                <Link className='link1' to = "/maylike">
+                <Link className='link1' to = "/hero">
                 SPIDER-MAN
                 </Link>
                 <h1 className="header__title">
-                    <span className='marvel'>MARVEL</span>
+                    <span className='marvel'>MOVIES</span>
                 </h1>
-                <Link className='link2' to = "/comics">
+                <Link className='link2' to = "/about">
                 ABOUT
                 </Link>
             </header>

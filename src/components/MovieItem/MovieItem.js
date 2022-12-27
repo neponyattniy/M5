@@ -22,7 +22,7 @@ class MovieItem extends Component {
                     <button type="button" data-id={imdbID}
                      className="movie-item__add-button"
                       onClick={this.addFilmToListHandler} >
-                        Добавить в список
+                        Add to list
                         </button>
                 </div>
             </article>

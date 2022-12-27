@@ -23,7 +23,7 @@ class Favorites extends Component {
     render() { 
         return (
             <div className="favorites">
-                <input placeholder = 'Ведите название вашего списка!'value={this.props.favoritesTitle} 
+                <input placeholder = 'Give a name for your list!'value={this.props.favoritesTitle} 
                 className="favorites__name" 
                 disabled={this.props.idList}
                  onChange={this.changeTitleHandler} />
@@ -41,9 +41,9 @@ class Favorites extends Component {
                  className="favorites__save"
                   disabled={!this.props.favoritesTitle || !this.props.favoritesMovies}
                    onClick={this.saveListHandler} >
-                    Сохранить список
+                    Save list
                     </button>} 
-                {this.props.idList && <a href={`/list/${this.props.idList}`} target="_blank" >Перейти к списку</a>} 
+                {this.props.idList && <a href={`/list/${this.props.idList}`} target="_blank" >Go to the list!</a>} 
 
             </div>
         );
