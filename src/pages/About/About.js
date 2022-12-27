@@ -11,11 +11,28 @@ export default class About extends Component {
       <div className='wrap'>
         <header>
           <h1 className='headersss'>          <Link className='marvel' to = "/">
-                  <span className='back'>BACK TO MAIN PAGE</span>
+                  <span className='back'>COMICS</span>
                 </Link></h1>
 
         </header>
-        <h1 className='comicheader'>COMICS</h1>
+        <div className='cards'>
+                 
+          <div className='card1'>
+            <p className='desc1'></p>
+          </div>
+          <div className='card1'>
+            <p className='desc1'></p>
+          </div>
+          <div className='card1'>
+            <p className='desc1'></p>
+          </div>
+          <div className='card1'>
+            <p className='desc1'></p>
+          </div>
+          
+
+        </div>
+
       </div>
 
     )

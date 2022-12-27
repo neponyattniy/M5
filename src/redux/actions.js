@@ -7,6 +7,12 @@ export function searchingFilms(movies) {
     }
   }
 
+
+  export const startAction = {
+    type: "rotate",
+    payload: true
+  };
+
   export function changingSearchLine(searchLine) {
     return {
       type: 'TO_CHANGE_SEARCH_LINE',

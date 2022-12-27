@@ -6,13 +6,14 @@ import { Carousel } from 'react-responsive-carousel';
 import Footer from './Footer';
 import Description from './Description';
 
+
 export default class Spider extends Component {
     render() {
         return (
             <div>
                 <header className='header1'>
   
-                    <h1 className='header2'>SPIDER-MAN                  <Link className='link4' to = '/'>
+                    <h1 className='header2'>SPIDER-MAN<Link className='link4' to = '/'>
                         HOME
                     </Link></h1>
                 </header>
