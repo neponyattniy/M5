@@ -48,14 +48,14 @@ export default class About extends Component {
             <div className='card1mobile'>
             <p className='desc1mobile'>
               <a className='linkcom' href='https://www.marvel.com/comics/issue/104879/avengers_forever_2021_12'>
-              Avengers Forever (2021) #12
+              <span className='titlecom'>Avengers Forever (2021) #12</span>
               </a>
           </p>
           </div>
           <div className='card2mobile'>
             <p className='desc1mobile'>
               <a className='linkcom' href='https://www.marvel.com/comics/issue/104561/dark_web_ms_marvel_2022_1'>
-              Dark Web: Ms. Marvel (2022) #1
+              <span className='titlecom'>Dark Web: Ms. Marvel (2022) #1</span>
 
               </a>
             </p>
@@ -63,7 +63,7 @@ export default class About extends Component {
           <div className='card3mobile'>
             <p className='desc1mobile'>
               <a className='linkcom' href='https://www.marvel.com/comics/issue/100416/wakanda_2022_3'>
-              Wakanda (2022) #3
+              <span className='titlecom'>Wakanda (2022) #3</span>
 
               </a>
             </p>
