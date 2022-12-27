@@ -16,17 +16,17 @@ export default class About extends Component {
 
         </header>
         <div className='cards'>
-                 
+          <Link to='comics1'></Link>
           <div className='card1'>
+            <p className='desc1'>Avengers Forever (2021) #12</p>
+          </div>
+          <div className='card2'>
             <p className='desc1'></p>
           </div>
-          <div className='card1'>
+          <div className='card3'>
             <p className='desc1'></p>
           </div>
-          <div className='card1'>
-            <p className='desc1'></p>
-          </div>
-          <div className='card1'>
+          <div className='card4'>
             <p className='desc1'></p>
           </div>
           

@@ -12,9 +12,9 @@
 .cards{
     margin-top: 300px;
     position: absolute;
-    margin-left: 20px;
-    width: 97%;
-    height: 400px;
+    margin-left: 70px;
+    width: 90%;
+    height: 50%;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -24,17 +24,63 @@
 
 .card1 {
     background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/2/40/639a7abec7bad/portrait_uncanny.jpg);
-    width: 300px;
+    width: 20%;
     border-radius: 10px;
 }
 
+.desc1 {
+    border-radius: 6px;
+    height: 30px;
+    background-color: #202020;
+    color: white;
+}
 
+.card2 {
+    background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/c/b0/639a7ab7b9ce3/portrait_uncanny.jpg);
+    width: 20%;
+    border-radius: 10px;
+}
+
+.card3{
+    background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/4/90/639a7a8c94966/portrait_uncanny.jpg);
+    width: 20%;
+    border-radius: 10px;
+}
+
+.card4 {
+    background-image: url(https://i.annihil.us/u/prod/marvel/i/mg/2/40/639a7add2bfbd/portrait_uncanny.jpg);
+    
+    width: 20%;
+    border-radius: 10px;
+}
 
 .card1:hover {
     scale: 1.1;
     opacity: 0.5;
 }
 
-.card1 {
+.card2:hover {
+    scale: 1.1;
+    opacity: 0.5;
+}
+
+.card3:hover {
+    scale: 1.1;
+    opacity: 0.5;
+}
+
+.card4:hover {
+    scale: 1.1;
+    opacity: 0.5;
+}
+
+.card1,.card2,.card3,.card4 {
     transition: 0.7s;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
