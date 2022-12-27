@@ -13,7 +13,8 @@
 
 html {
    background-image: url(https://wallpaperforu.com/wp-content/uploads/2021/03/Wallpaper-Marvel-Spiderman-Wallpaper-Spider-Man-Marvel-C19.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .favorites__name {
