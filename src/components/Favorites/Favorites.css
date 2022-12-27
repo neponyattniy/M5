@@ -4,6 +4,11 @@
     padding: 30px 20px;
     box-shadow: 2px 2px 14px rgb(85, 76, 76);
     background-image:   linear-gradient(red, black);
+
+}
+
+.marvel {
+    font-family: 'Marvel', sans-serif;
 }
 
 html {

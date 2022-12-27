@@ -3,7 +3,6 @@ import './Favorites.css';
 import { connect } from 'react-redux';
 import { changingFavoritesTitle, putFavoritesListToServer, removingFilm } from '../../redux/actions';
 
-
 class Favorites extends Component {
 
     saveListHandler = (event) => {
