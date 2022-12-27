@@ -16,7 +16,7 @@ class App extends React.Component {
         <Route path="/" exact component={MainPage} />
         <Route path="/list/:id" exact component={ListPage} />
         <Route path="/hero" exact component={Spider}/>
-        <Route path="/about" exact component = {About}/>
+        <Route path="/comics" exact component = {About}/>
 
       </div>
     );

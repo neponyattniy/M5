@@ -13,8 +13,8 @@ class Header extends Component {
                 <h1 className="header__title">
                     <span className='marvel'>MOVIES</span>
                 </h1>
-                <Link className='link2' to = "/about">
-                ABOUT
+                <Link className='link2' to = "/comics">
+                COMICS
                 </Link>
             </header>
         );

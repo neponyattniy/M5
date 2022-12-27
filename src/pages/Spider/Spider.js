@@ -13,9 +13,7 @@ export default class Spider extends Component {
             <div>
                 <header className='header1'>
   
-                    <h1 className='header2'>SPIDER-MAN<Link className='link4' to = '/'>
-                        HOME
-                    </Link></h1>
+                    <h1 className='header2'><Link className='spidlink' to='/'>SPIDER-MAN</Link></h1>
                 </header>
             <Carousel className='caru'>
                 <div className='photo'>
